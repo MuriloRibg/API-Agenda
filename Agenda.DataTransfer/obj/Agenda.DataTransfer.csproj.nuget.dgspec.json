@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {}
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "projectName": "Agenda.DataTransfer",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\obj\\",
+        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

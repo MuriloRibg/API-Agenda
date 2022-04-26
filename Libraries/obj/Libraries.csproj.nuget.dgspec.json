@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj": {}
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj",
+        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
         "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\obj\\",
+        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5575,11 +5575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
       "projectName": "Agenda.Dominio",
-      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
       "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5598,8 +5598,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj": {
-              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj"
             }
           }
         }

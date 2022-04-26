@@ -10,3 +10,15 @@ C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Age
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\ref\Agenda.DataTransfer.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb

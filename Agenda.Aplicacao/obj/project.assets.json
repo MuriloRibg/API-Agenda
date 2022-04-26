@@ -6143,11 +6143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
       "projectName": "Agenda.Aplicacao",
-      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
       "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Aplicacao\\obj\\",
+      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6166,11 +6166,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
             },
-            "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
             }
           }
         }

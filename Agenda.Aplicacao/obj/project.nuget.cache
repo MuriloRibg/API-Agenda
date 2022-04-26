@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aAKGAEAf2PV+waf0auP55W5/6c81+eienZeXuyzrnXF8gKWOaVX5D2qUhkyTEZCNsUFLjm3RfBJZ0TOlIGksCA==",
+  "dgSpecHash": "CCHRbjEW/XFgiN/MXtFqRzdLH0yBt8PvnZ+6MjVW1NSclUMZW5vWfgE6M8+xDj/VsUEKbkfRI55VmM49V1Todg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\automapper\\6.2.2\\automapper.6.2.2.nupkg.sha512",

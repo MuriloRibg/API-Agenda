@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rd3JJneEsJwdUOPGt721R5wWzHA4dEshK+Le/3whzmLBd2yfylSJZsfmRXa1u7MLgr6mn7OPGA4sFAMvclgiDA==",
+  "dgSpecHash": "V3EY1f0TmENy9JR4fLk8m4zrV6R7A6voxdQfwOb9WkNLpGQ5993t8eR/Oj4ySXNx+TKwGNLSLAgEwzSFmzyEzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",

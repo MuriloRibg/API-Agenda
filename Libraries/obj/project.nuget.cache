@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MWncvILI3awfvvbtDfRxq10oJf+UAkyM72tqhfkjnk2Gu2PXc29oSIab965K1D9ygagaMpDgjPmnYIOSBSj4HQ==",
+  "dgSpecHash": "vlSivfEgu46T6oitU4OdDqTDo1SCAHV1DDFlEkOzipf6koO+idaFatOvYAl0cytCe05nR5mOhm7UWqsauMTASQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\Agenda\\Libraries\\Libraries.csproj",
+  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\marcelo.faria\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",

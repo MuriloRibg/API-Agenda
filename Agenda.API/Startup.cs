@@ -73,11 +73,32 @@ namespace Agenda.API
             });
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IInstrutorAppServico, InstrutorAppServico>();
-            services.AddScoped<IInstrutorServico, InstrutorServico>();
-            services.AddScoped<IInstrutoresRepositorio, InstrutorRepositorio>();
-
             services.AddAutoMapper(typeof(InstrutoresProfile).GetTypeInfo().Assembly);
+            
+            services.Scan(scan => scan
+                .FromAssemblyOf<InstrutorAppServico>()
+                    .AddClasses()
+                        .AsImplementedInterfaces()
+                        .WithScopedLifetime()
+            );
+
+            services.Scan(scan => scan
+                .FromAssemblyOf<InstrutorServico>()
+                    .AddClasses()
+                        .AsImplementedInterfaces()
+                        .WithScopedLifetime()
+            );
+
+            services.Scan(scan => scan
+                .FromAssemblyOf<InstrutorRepositorio>()
+                    .AddClasses()
+                        .AsImplementedInterfaces()
+                        .WithScopedLifetime()
+            );
+
+            // services.AddScoped<IInstrutorAppServico, InstrutorAppServico>();
+            // services.AddScoped<IInstrutorServico, InstrutorServico>();
+            // services.AddScoped<IInstrutoresRepositorio, InstrutorRepositorio>();
 
             services.AddSwaggerGen(c =>
             {
