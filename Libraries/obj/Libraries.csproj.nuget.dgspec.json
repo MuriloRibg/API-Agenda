@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {}
+    "C:\\Marcelo\\API-Agenda\\Libraries\\Libraries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Marcelo\\API-Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Marcelo\\API-Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
-        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\obj\\",
+        "projectPath": "C:\\Marcelo\\API-Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Marcelo\\API-Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "http://nuget.autoglass.com.br/svc": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

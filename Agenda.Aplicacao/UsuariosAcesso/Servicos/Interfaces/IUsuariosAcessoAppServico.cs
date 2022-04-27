@@ -6,5 +6,6 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Servicos.Interfaces
     public interface IUsuariosAcessoAppServico
     {
         UsuarioAcessoResponse Inserir(UsuarioAcessoRequest request);
+        UsuarioAcessoSessaoResponse Autenticar(UsuarioAcessoAutenticacaoRequest request);
     }
 }

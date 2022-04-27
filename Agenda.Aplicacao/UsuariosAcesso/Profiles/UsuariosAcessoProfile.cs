@@ -9,6 +9,7 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Profiles
         public UsuariosAcessoProfile() 
         {
             CreateMap<UsuarioAcesso, UsuarioAcessoResponse>();
+            CreateMap<UsuarioAcesso, UsuarioAcessoSessaoResponse>();
         }
     }
 }

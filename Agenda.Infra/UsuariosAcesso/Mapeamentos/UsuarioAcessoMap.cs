@@ -9,10 +9,10 @@ namespace Agenda.Infra.UsuariosAcesso.Mapeamentos
         {
             Table("USUARIOACESSO");
             Id(p => p.Id).Column("ID");
-            Map(p => p.Nome).Column("NOME");
-            Map(p => p.Email).Column("EMAIL");
-            Map(p => p.Login).Column("LOGIN");
-            Map(p => p.Senha).Column("SENHA");
+            Map(x => x.Nome).Column("NOME");
+            Map(x => x.Email).Column("EMAIL");
+            Map(x => x.Login).Column("LOGIN");
+            Map(x => x.Senha).Column("SENHA");
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace Agenda.DataTransfer.UsuariosAcesso.Requests
 {
-    public class UsuarioAutenticacaoRequest
+    public class UsuarioAcessoAutenticacaoRequest
     {
         public string Login { get; set; }
         public string Senha { get; set; }

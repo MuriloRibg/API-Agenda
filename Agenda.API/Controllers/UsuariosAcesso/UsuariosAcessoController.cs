@@ -23,5 +23,14 @@ namespace Agenda.API.Controllers.UsuariosAcesso
 
             return Ok(response);
         }
+
+        [HttpPost]
+        [Route("api/autenticar")]
+        public ActionResult<UsuarioAcessoSessaoResponse> Autenticar([FromBody] UsuarioAcessoAutenticacaoRequest request)
+        {
+            var response = usuariosAcessoAppServico.Autenticar(request);
+
+            return Ok(response);
+        }
     }
 }

@@ -6,6 +6,7 @@ using Agenda.Dominio.UsuariosAcesso.Repositorios;
 using Agenda.Dominio.UsuariosAcesso.Servicos.Interfaces;
 using AutoMapper;
 using Libraries.Aplicacao.Transacoes.Interfaces;
+using Libraries.Dominio.Excecoes;
 
 namespace Agenda.Aplicacao.UsuariosAcesso.Servicos
 {
@@ -51,6 +52,38 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Servicos
 
                 return response;
                 
+            }
+            catch
+            {
+                unitOfWork.Rollback();
+                throw;
+            }
+        }
+
+        public UsuarioAcessoSessaoResponse Autenticar(UsuarioAcessoAutenticacaoRequest request)
+        {
+            if (request == null)
+            {
+                throw new RegraDeNegocioExcecao("Requisição inválida!");
+            }
+
+            try
+            {
+                unitOfWork.BeginTransaction();
+
+                var sessao = usuariosAcessoServico.Autenticar(request.Login, request.Senha);
+
+                unitOfWork.Commit();
+
+                var response = new UsuarioAcessoSessaoResponse()
+                {
+                    Codigo = sessao.Codigo,
+                    Nome = sessao.Nome,
+                    Jwt = sessao.Token,
+                    Email = sessao.Email
+                };
+
+                return response;
             }
             catch
             {

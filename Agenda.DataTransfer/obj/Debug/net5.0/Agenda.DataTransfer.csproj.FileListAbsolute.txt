@@ -22,3 +22,15 @@ C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\D
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\refint\Agenda.DataTransfer.dll
+C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
