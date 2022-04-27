@@ -19,7 +19,7 @@ namespace Agenda.API.Controllers.UsuariosAcesso
         [Route("api/usuariosAcesso")]
         public ActionResult<UsuarioAcessoResponse> Cadastrar([FromBody] UsuarioAcessoRequest request)
         {
-            var response = usuariosAcessoAppServico.Inserir(request);
+            var response = usuariosAcessoAppServico.Cadastrar(request);
 
             return Ok(response);
         }

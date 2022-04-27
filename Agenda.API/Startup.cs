@@ -96,10 +96,6 @@ namespace Agenda.API
                         .WithScopedLifetime()
             );
 
-            // services.AddScoped<IInstrutorAppServico, InstrutorAppServico>();
-            // services.AddScoped<IInstrutorServico, InstrutorServico>();
-            // services.AddScoped<IInstrutoresRepositorio, InstrutorRepositorio>();
-
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Agenda.API", Version = "v1" });
@@ -116,6 +112,13 @@ namespace Agenda.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Agenda.API v1"));
             }
 
+            app.UseCors(c =>
+            {
+                c.AllowAnyHeader();
+                c.AllowAnyMethod();
+                c.AllowAnyOrigin();
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -126,6 +129,8 @@ namespace Agenda.API
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }

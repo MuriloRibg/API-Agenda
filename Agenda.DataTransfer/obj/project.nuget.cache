@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A68nm1N7ZGBJXNpytS+Nfw/hrWcOdhngoGfH7AnMys8A/aYc4OTApoNipBBTRQyzg4NRcoQO9pY5RfQnvN8R2g==",
+  "dgSpecHash": "hKXjbZUROIu9cVR8f/wLExrNYZnx1/2VLDb3qGUe0TXDxJBiC8ls7knAT2FtkSVIN1wXA7r8dTvHivn7IxNJ3g==",
   "success": true,
-  "projectFilePath": "C:\\Marcelo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -54,7 +54,7 @@ namespace Agenda.Dominio.UsuariosAcesso.Servicos
                 throw new UsuarioCadastradoExcecao();
             }
 
-            usuario = new UsuarioAcesso(nome, email.ToLower(), login.ToLower());
+            usuario = new UsuarioAcesso(nome, login.ToLower(), email.ToLower());
             var hash = usuariosAcessoRepositorio.CriptografarSenhaAcesso(usuario.Login, senha);
             
             usuario.SetSenha(hash);

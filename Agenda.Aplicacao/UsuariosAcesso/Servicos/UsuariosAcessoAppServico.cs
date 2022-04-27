@@ -31,7 +31,7 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Servicos
             this.unitOfWork = unitOfWork;
         }
 
-        public UsuarioAcessoResponse Inserir(UsuarioAcessoRequest request)
+        public UsuarioAcessoResponse Cadastrar(UsuarioAcessoRequest request)
         {
             try 
             {
@@ -64,7 +64,7 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Servicos
         {
             if (request == null)
             {
-                throw new RegraDeNegocioExcecao("RequisiÁ„o inv·lida!");
+                throw new RegraDeNegocioExcecao("Requisi√ß√£o inv√°lida!");
             }
 
             try

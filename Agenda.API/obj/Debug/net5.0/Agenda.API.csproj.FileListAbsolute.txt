@@ -202,3 +202,7 @@ C:\Marcelo\API-Agenda\Agenda.API\obj\Debug\net5.0\Agenda.API.csproj.CopyComplete
 C:\Marcelo\API-Agenda\Agenda.API\obj\Debug\net5.0\refint\Agenda.API.dll
 C:\Marcelo\API-Agenda\Agenda.API\obj\Debug\net5.0\Agenda.API.genruntimeconfig.cache
 C:\Marcelo\API-Agenda\Agenda.API\obj\Debug\net5.0\ref\Agenda.API.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
