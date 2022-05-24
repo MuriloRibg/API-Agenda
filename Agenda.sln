@@ -1,17 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.API", "Agenda.API\Agenda.API.csproj", "{6DE74F7E-8125-43D2-9CE5-C7E8E3B3DBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.API", "Agenda.API\Agenda.API.csproj", "{6DE74F7E-8125-43D2-9CE5-C7E8E3B3DBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Aplicacao", "Agenda.Aplicacao\Agenda.Aplicacao.csproj", "{F49C2BD1-674C-44B9-973B-EB5B9589755F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Aplicacao", "Agenda.Aplicacao\Agenda.Aplicacao.csproj", "{F49C2BD1-674C-44B9-973B-EB5B9589755F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DataTransfer", "Agenda.DataTransfer\Agenda.DataTransfer.csproj", "{C3FBB30C-0324-4A16-9990-9B1A0D9EC7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.DataTransfer", "Agenda.DataTransfer\Agenda.DataTransfer.csproj", "{C3FBB30C-0324-4A16-9990-9B1A0D9EC7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Dominio", "Agenda.Dominio\Agenda.Dominio.csproj", "{21ED7F84-039D-4C19-A79C-AF14631E9B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Dominio", "Agenda.Dominio\Agenda.Dominio.csproj", "{21ED7F84-039D-4C19-A79C-AF14631E9B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Infra", "Agenda.Infra\Agenda.Infra.csproj", "{8B3896AF-F10F-4E44-8155-1F096315CCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Infra", "Agenda.Infra\Agenda.Infra.csproj", "{8B3896AF-F10F-4E44-8155-1F096315CCEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{C498456B-3B38-404D-8B7A-1DA7294E63C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries", "Libraries\Libraries.csproj", "{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6DE74F7E-8125-43D2-9CE5-C7E8E3B3DBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +87,26 @@ Global
 		{8B3896AF-F10F-4E44-8155-1F096315CCEC}.Release|x64.Build.0 = Release|Any CPU
 		{8B3896AF-F10F-4E44-8155-1F096315CCEC}.Release|x86.ActiveCfg = Release|Any CPU
 		{8B3896AF-F10F-4E44-8155-1F096315CCEC}.Release|x86.Build.0 = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|x64.Build.0 = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0FC7DDD-5932-4FBC-B353-A1A610934C5C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DE74F7E-8125-43D2-9CE5-C7E8E3B3DBCC} = {C498456B-3B38-404D-8B7A-1DA7294E63C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1ECCE0D-3D65-4817-B368-42BBE70205AE}
 	EndGlobalSection
 EndGlobal

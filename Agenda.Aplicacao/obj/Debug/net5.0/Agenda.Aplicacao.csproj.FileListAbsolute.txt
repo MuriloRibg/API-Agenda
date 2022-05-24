@@ -74,3 +74,22 @@ C:\Marcelo\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.
 C:\Marcelo\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CopyComplete
 C:\Marcelo\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\refint\Agenda.Aplicacao.dll
 C:\Marcelo\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\ref\Agenda.Aplicacao.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.AssemblyInfo.cs
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\ref\Agenda.Aplicacao.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.pdb
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.deps.json
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\ref\Agenda.Aplicacao.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.pdb
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Dominio.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.dll
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Dominio.pdb
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.pdb
+C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CopyComplete

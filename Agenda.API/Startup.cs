@@ -1,14 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
 using Agenda.Aplicacao.Instrutores.Profiles;
 using Agenda.Aplicacao.Instrutores.Servicos;
-using Agenda.Aplicacao.Instrutores.Servicos.Interfaces;
-using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos;
-using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using Agenda.Infra.Instrutores.Mapeamentos;
 using Agenda.Infra.Instrutores.Repositorios;
 using AutoMapper;
@@ -19,14 +11,13 @@ using Libraries.Core.Api.Filters;
 using Libraries.NHibernate.Transacoes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NHibernate;
+using System.Reflection;
 
 namespace Agenda.API
 {
@@ -44,7 +35,7 @@ namespace Agenda.API
         {
             services.AddControllers();
 
-            services.AddMvc(config => 
+            services.AddMvc(config =>
             {
                 config.Filters.Add<ExcecaoFilter>();
             })
@@ -74,7 +65,7 @@ namespace Agenda.API
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddAutoMapper(typeof(InstrutoresProfile).GetTypeInfo().Assembly);
-            
+
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorAppServico>()
                     .AddClasses()
@@ -130,7 +121,7 @@ namespace Agenda.API
                 endpoints.MapControllers();
             });
 
-            
+
         }
     }
 }

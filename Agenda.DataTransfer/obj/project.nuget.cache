@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hKXjbZUROIu9cVR8f/wLExrNYZnx1/2VLDb3qGUe0TXDxJBiC8ls7knAT2FtkSVIN1wXA7r8dTvHivn7IxNJ3g==",
+  "dgSpecHash": "3K4GT8YOfWpKBxlfwpgwHMGV08tI5qaNKGPhsrGjohSoB7raLikwL92igP7OBWePMtdyDdwlinDbTjSF3VBCQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
