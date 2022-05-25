@@ -13,6 +13,7 @@ namespace Agenda.Infra.UsuariosAcesso.Mapeamentos
             Map(x => x.Email).Column("EMAIL");
             Map(x => x.Login).Column("LOGIN");
             Map(x => x.Senha).Column("SENHA");
+            Map(x => x.DataCadastro).Column("DataCadastro");
         }
     }
 }

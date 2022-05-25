@@ -27,14 +27,14 @@ namespace Libraries.Core.Api.Swagger
                     operation.Parameters = new List<OpenApiParameter>();
                 }
 
-                var myObjectSchema = context.SchemaGenerator.GenerateSchema(typeof(string), context.SchemaRepository);
-                operation.Parameters.Add(new OpenApiParameter
-                {
-                    Name = "Token_Autorizacao",
-                    In = ParameterLocation.Header,
-                    Schema = myObjectSchema,
-                    Required = true
-                });
+                //var myObjectSchema = context.SchemaGenerator.GenerateSchema(typeof(string), context.SchemaRepository);
+                //operation.Parameters.Add(new OpenApiParameter
+                //{
+                //    Name = "Token_Autorizacao",
+                //    In = ParameterLocation.Header,
+                //    Schema = myObjectSchema,
+                //    Required = true
+                //});
             }
         }
     }

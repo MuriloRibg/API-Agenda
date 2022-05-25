@@ -1,4 +1,5 @@
 using Libraries.Dominio.Excecoes;
+using System;
 
 namespace Agenda.Dominio.UsuariosAcesso.Entidades
 {
@@ -9,7 +10,8 @@ namespace Agenda.Dominio.UsuariosAcesso.Entidades
         public virtual string Login { get; protected set; }
         public virtual string Email { get; protected set; }
         public virtual string Senha { get; protected set; }
-        
+        public virtual DateTime DataCadastro { get; protected set; }
+
         protected UsuarioAcesso() { }
 
 

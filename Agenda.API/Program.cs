@@ -1,26 +1,59 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Libraries.Core.Api.Hosting;
+using Libraries.Core.Api.Logs;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Serilog;
+using System;
+using System.IO;
+
 
 namespace Agenda.API
 {
     public class Program
     {
+        public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
+           .SetBasePath(Directory.GetCurrentDirectory())
+           .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+           .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true)
+           .AddEnvironmentVariables()
+           .Build();
+
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(Configuration)
+                .CreateLogger();
+
+            try
+            {
+                Log.Information("Iniciando aplicação...");
+
+                BuildWebHost(args).Run();
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Host encerrado de maneira inesperada!");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+        public static IWebHost BuildWebHost(string[] args)
+        {
+            var builder = WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .UseSerilog((provider, context, loggerConfiguration) =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    loggerConfiguration
+                        .ReadFrom.Configuration(Configuration).Enrich.WithAspnetcoreHttpcontext(provider);
                 });
+
+            return builder.Build();
+        }
+
     }
 }
