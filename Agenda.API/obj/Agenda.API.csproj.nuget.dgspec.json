@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {}
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
         "projectName": "Agenda.API",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.API\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,26 +25,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj"
               },
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
               },
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               },
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj"
               },
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj"
               }
             }
           }
@@ -122,6 +123,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -130,24 +137,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
         "projectName": "Agenda.Aplicacao",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Aplicacao\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,17 +162,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
               },
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -200,24 +208,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "projectName": "Agenda.DataTransfer",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.DataTransfer\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,71 +233,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
-        "projectName": "Agenda.Dominio",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -318,24 +270,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
-        "projectName": "Agenda.Infra",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Infra\\obj\\",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "projectName": "Agenda.Dominio",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -343,14 +295,77 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
+        "projectName": "Agenda.Infra",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -389,24 +404,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -414,6 +429,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -472,7 +488,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

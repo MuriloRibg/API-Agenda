@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj": {}
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\Libraries.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos Gabriel\\API-Agenda\\Libraries\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

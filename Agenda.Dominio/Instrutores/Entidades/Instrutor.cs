@@ -1,3 +1,4 @@
+using Agenda.Dominio.Instrutores.Enumeradores;
 using Libraries.Dominio.Excecoes;
 
 namespace Agenda.Dominio.Instrutores.Entidades
@@ -8,11 +9,11 @@ namespace Agenda.Dominio.Instrutores.Entidades
         public virtual string Nome { get; set; }
         public virtual string Abreviacao { get; set; }
         public virtual string Email { get; set; }
-        public virtual bool Disponibilidade { get; set; }
+        public virtual DisponibilidadeEnum Disponibilidade { get; set; }
         public virtual string Pilar { get; set; }
        
         public Instrutor() { }
-        public Instrutor(string nome, string abreviacao, string email, bool disponibilidade, string pilar)
+        public Instrutor(string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)
         {
             SetNome(nome);
             SetAbreviacao(abreviacao);
@@ -45,11 +46,8 @@ namespace Agenda.Dominio.Instrutores.Entidades
             this.Email = email;
         }
 
-        public virtual void SetDisponibilidade(bool disponibilidade) 
+        public virtual void SetDisponibilidade(DisponibilidadeEnum disponibilidade) 
         {
-            if (disponibilidade == false)
-                throw new AtributoObrigatorioExcecao("Disponibilidade");
-
             this.Disponibilidade = disponibilidade;
         }
 
