@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {}
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "projectName": "Agenda.DataTransfer",
-        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\obj\\",
+        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -62,24 +62,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
         "projectName": "Agenda.Dominio",
-        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
-        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
-                "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj"
+              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj"
               }
             }
           }
@@ -124,24 +124,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
-        "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\obj\\",
+        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

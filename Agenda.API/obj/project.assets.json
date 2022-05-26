@@ -3926,7 +3926,6 @@
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
@@ -5456,7 +5455,6 @@
       "path": "system.collections.immutable/1.3.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
@@ -5712,7 +5710,6 @@
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5754,7 +5751,6 @@
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5978,7 +5974,6 @@
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7235,7 +7230,6 @@
       "path": "system.reflection.metadata/1.4.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
@@ -8935,7 +8929,6 @@
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8992,7 +8985,6 @@
       "path": "system.threading.thread/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9086,7 +9078,6 @@
       "path": "system.valuetuple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/.xml",
@@ -9264,7 +9255,6 @@
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9303,7 +9293,6 @@
       "path": "system.xml.xpath/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9342,7 +9331,6 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9424,23 +9412,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\": {},
+    "C:\\Users\\marcelo.faria\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
+      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.API\\Agenda.API.csproj",
       "projectName": "Agenda.API",
-      "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
-      "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.API\\obj\\",
+      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.API\\Agenda.API.csproj",
+      "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9455,20 +9443,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj"
             },
-            "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
             },
-            "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-              "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
             },
-            "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
-              "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Infra\\Agenda.Infra.csproj"
             },
-            "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj": {
-              "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj"
+            "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
+              "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj"
             }
           }
         }
@@ -9546,12 +9534,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9560,7 +9542,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

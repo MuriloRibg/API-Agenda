@@ -18,7 +18,7 @@ namespace Agenda.API.Controllers.Instrutores
         }
         
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public ActionResult<List<Instrutor>> ListarInstrutor()
         {
             var response = instrutorAppServico.Listar();

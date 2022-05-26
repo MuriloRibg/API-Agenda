@@ -7,13 +7,14 @@ namespace Agenda.Infra.Instrutores.Mapeamentos
     {
         public InstrutorMap()
         {
-            Table("INSTRUTOR");
+            Table("INSTRUTORES");
             Id(p => p.Id).Column("ID");
             Map(x => x.Nome).Column("NOME");
             Map(x => x.Abreviacao).Column("ABREVIACAO");
             Map(x => x.Email).Column("EMAIL");
             Map(x => x.Disponibilidade).Column("DISPONIBILIDADE");
             Map(x => x.Pilar).Column("PILAR");
+            Map(x => x.DeleteAt).Column("DELETEAT");
         }
     }
 }

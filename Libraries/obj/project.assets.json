@@ -7467,12 +7467,11 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.3.0": {
-      "sha512": "IRiEFUa5b/Gs5Egg8oqBVoywhtOeaO2KOx3j0RfcYY/raxqBuEK7NXRDgOwtYM8qbi+7S4RPXUbNt+ZxyY0/NQ==",
+      "sha512": "6ENnyNU7cdmUVYblQ9GzLuJlLs9HWyoSInm+JZyCBHFUTaSQZolLIdGSZWGw5VOhjbFop+u/pU0AbKiHQKheqw==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8294,23 +8293,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\": {},
+    "C:\\Users\\marcelo.faria\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
+      "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
       "projectName": "Libraries",
-      "projectPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\Libraries.csproj",
-      "packagesPath": "C:\\Users\\gabriel.tozatto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabriel.tozatto\\Documents\\Gabriel\\repo\\API-Agenda\\Libraries\\obj\\",
+      "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
+      "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gabriel.tozatto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8377,7 +8376,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
