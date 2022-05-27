@@ -60,5 +60,10 @@ namespace Agenda.Dominio.Instrutores.Entidades
 
             this.Pilar = pilar;
         }
+
+        public virtual void SetData(DateTime deleteAt)
+        {
+            this.DeleteAt = deleteAt;
+        }
     }
 }

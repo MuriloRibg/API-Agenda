@@ -22,3 +22,15 @@ C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Libraries\obj\Debug\net5.
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Libraries\obj\Debug\net5.0\Libraries.dll
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Libraries\obj\Debug\net5.0\ref\Libraries.dll
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Libraries\obj\Debug\net5.0\Libraries.pdb
+C:\Marcelo\Backend\API-Agenda\Libraries\bin\Debug\net5.0\Libraries.deps.json
+C:\Marcelo\Backend\API-Agenda\Libraries\bin\Debug\net5.0\Libraries.dll
+C:\Marcelo\Backend\API-Agenda\Libraries\bin\Debug\net5.0\Libraries.pdb
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.csproj.AssemblyReference.cache
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.AssemblyInfoInputs.cache
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.AssemblyInfo.cs
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.dll
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\refint\Libraries.dll
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\Libraries.pdb
+C:\Marcelo\Backend\API-Agenda\Libraries\obj\Debug\net5.0\ref\Libraries.dll

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {}
+    "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
+    "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
         "projectName": "Agenda.Aplicacao",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
-        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Aplicacao\\obj\\",
+        "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
+              "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+                "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
               },
-              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -71,24 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+    "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "projectName": "Agenda.DataTransfer",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.DataTransfer\\obj\\",
+        "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,15 +89,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
-                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
+              "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -133,24 +125,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+    "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "projectUniqueName": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
         "projectName": "Agenda.Dominio",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
-        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Agenda.Dominio\\obj\\",
+        "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Marcelo\\Backend\\API-Agenda\\Agenda.Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,15 +147,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
-                "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj"
+              "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\Libraries.csproj"
               }
             }
           }
@@ -195,24 +183,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj": {
+    "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
+        "projectUniqueName": "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\Libraries.csproj",
-        "packagesPath": "C:\\Users\\marcelo.faria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.faria\\Documents\\projeto-agenda\\Agenda\\Libraries\\obj\\",
+        "projectPath": "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Marcelo\\Backend\\API-Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcelo.faria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,7 +205,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -279,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

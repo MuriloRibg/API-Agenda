@@ -3,6 +3,8 @@ using Agenda.Dominio.Instrutores.Enumeradores;
 using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using Libraries.Dominio.Excecoes;
+using System;
+using System.Linq;
 
 namespace Agenda.Dominio.Instrutores.Servicos
 {
@@ -17,7 +19,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
 
         public Instrutor Atualizar(int id, string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)
         {
-            Instrutor instrutor = Validar(id);
+            Instrutor instrutor = this.Validar(id);
             
             instrutor.SetNome(nome);
             instrutor.SetAbreviacao(abreviacao);
@@ -29,7 +31,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
         }
 
         public Instrutor Instanciar(string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)
-        {
+        {   
             Instrutor instrutor = new Instrutor(
                 nome,
                 abreviacao,
@@ -45,7 +47,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
         {
             Instrutor instrutor = instrutorRepositorio.PesquisarPor(idInstrutor);
 
-            if(instrutor == null)
+            if (instrutor == null)
             {
                 throw new RegraDeNegocioExcecao("Instrutor não encontrado!");
             }

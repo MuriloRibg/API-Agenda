@@ -87,3 +87,22 @@ C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.pdb
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.pdb
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CopyComplete
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.deps.json
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Dominio.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Dominio.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.AssemblyReference.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.AssemblyInfoInputs.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.AssemblyInfo.cs
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CopyComplete
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\refint\Agenda.Aplicacao.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Aplicacao\obj\Debug\net5.0\ref\Agenda.Aplicacao.dll

@@ -10,5 +10,6 @@ namespace Agenda.Aplicacao.Instrutores.Servicos.Interfaces
         InstrutorResponse Recuperar(int id);
         InstrutorResponse Inserir(InstrutorRequest request);
         InstrutorResponse Atualizar(int id, InstrutorRequest request);
+        InstrutorResponse Deletar(int id);
     }
 }

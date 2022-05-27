@@ -79,3 +79,20 @@ C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Infra\bin\Debug\net5
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Dominio.pdb
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Libraries.pdb
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.csproj.CopyComplete
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Infra.deps.json
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Infra.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Infra.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Dominio.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Libraries.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Agenda.Dominio.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\bin\Debug\net5.0\Libraries.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.csproj.AssemblyReference.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.AssemblyInfoInputs.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.AssemblyInfo.cs
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.csproj.CoreCompileInputs.cache
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.csproj.CopyComplete
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\refint\Agenda.Infra.dll
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\Agenda.Infra.pdb
+C:\Marcelo\Backend\API-Agenda\Agenda.Infra\obj\Debug\net5.0\ref\Agenda.Infra.dll
