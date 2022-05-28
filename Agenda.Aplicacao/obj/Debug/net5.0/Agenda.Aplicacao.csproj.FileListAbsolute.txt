@@ -23,12 +23,6 @@ C:\Users\marcelo.faria\Documents\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.DataTransfer.pdb
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.pdb
 C:\Users\marcelo.faria\Documents\Agenda\Agenda.Aplicacao\obj\Debug\net5.0\Agenda.Aplicacao.csproj.CopyComplete
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\appsettings.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.deps.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.runtimeconfig.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.runtimeconfig.dev.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Libraries.exe
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.deps.json
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\Agenda.Aplicacao.dll
 C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.Aplicacao\bin\Debug\net5.0\ref\Agenda.Aplicacao.dll

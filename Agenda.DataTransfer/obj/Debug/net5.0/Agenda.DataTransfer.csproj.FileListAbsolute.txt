@@ -46,3 +46,8 @@ C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Deb
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
 C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.Dominio.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Libraries.dll
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.Dominio.pdb
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Libraries.pdb
+C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CopyComplete

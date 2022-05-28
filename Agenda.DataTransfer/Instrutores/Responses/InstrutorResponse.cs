@@ -1,4 +1,5 @@
 using Agenda.Dominio.Instrutores.Enumeradores;
+using System;
 
 namespace Agenda.DataTransfer.Instrutores.Responses
 {
@@ -10,5 +11,6 @@ namespace Agenda.DataTransfer.Instrutores.Responses
         public string Email { get; set; }
         public DisponibilidadeEnum Disponibilidade { get; set; }
         public string Pilar { get; set; }
+        public DateTime DeleteAt { get; set; }
     }
 }

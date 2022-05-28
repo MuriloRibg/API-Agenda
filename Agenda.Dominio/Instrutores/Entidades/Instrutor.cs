@@ -1,5 +1,6 @@
 using Agenda.Dominio.Instrutores.Enumeradores;
 using Libraries.Dominio.Excecoes;
+using System;
 
 namespace Agenda.Dominio.Instrutores.Entidades
 {
@@ -11,6 +12,7 @@ namespace Agenda.Dominio.Instrutores.Entidades
         public virtual string Email { get; set; }
         public virtual DisponibilidadeEnum Disponibilidade { get; set; }
         public virtual string Pilar { get; set; }
+        public virtual DateTime DeleteAt { get; set; }
        
         public Instrutor() { }
         public Instrutor(string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)

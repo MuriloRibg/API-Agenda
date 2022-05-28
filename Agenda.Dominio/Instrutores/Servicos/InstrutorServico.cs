@@ -1,4 +1,5 @@
 using Agenda.Dominio.Instrutores.Entidades;
+using Agenda.Dominio.Instrutores.Enumeradores;
 using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using Libraries.Dominio.Excecoes;
@@ -14,7 +15,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
             this.instrutorRepositorio = instrutorRepositorio;
         }
 
-        public Instrutor Atualizar(int id, string nome, string abreviacao, string email, bool disponibilidade, string pilar)
+        public Instrutor Atualizar(int id, string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)
         {
             Instrutor instrutor = Validar(id);
             
@@ -27,7 +28,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
             return instrutor;
         }
 
-        public Instrutor Instanciar(string nome, string abreviacao, string email, bool disponibilidade, string pilar)
+        public Instrutor Instanciar(string nome, string abreviacao, string email, DisponibilidadeEnum disponibilidade, string pilar)
         {
             Instrutor instrutor = new Instrutor(
                 nome,
