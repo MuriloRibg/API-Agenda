@@ -1,5 +1,6 @@
 using Agenda.Dominio.Instrutores.Entidades;
 using Agenda.Dominio.Instrutores.Enumeradores;
+using System;
 
 namespace Agenda.Dominio.Instrutores.Servicos.Interfaces
 {

@@ -1,4 +1,5 @@
 using Agenda.Dominio.Instrutores.Enumeradores;
+using System;
 
 namespace Agenda.DataTransfer.Instrutores.Requests
 {

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Agenda.Aplicacao.Instrutores.Servicos.Interfaces;
@@ -8,6 +9,7 @@ using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using AutoMapper;
 using Libraries.Aplicacao.Transacoes.Interfaces;
+using Libraries.Dominio.Excecoes;
 
 namespace Agenda.Aplicacao.Instrutores.Servicos
 {
@@ -79,7 +81,7 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             }
         }
 
-         public InstrutorResponse Atualizar (int id, InstrutorRequest request) 
+        public InstrutorResponse Atualizar (int id, InstrutorRequest request) 
         {
             try
             {
@@ -99,6 +101,34 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
                 var response = mapper.Map<InstrutorResponse>(instrutor);
 
                 unitOfWork.Commit();
+
+                return response;
+            }
+            catch
+            {
+                unitOfWork.Rollback();
+                throw;
+            }
+        }
+
+        public InstrutorResponse Deletar(int id)
+        {
+            try
+            {
+                unitOfWork.BeginTransaction();
+
+                Instrutor instrutor = instrutorRepositorio.PesquisarPor(id);
+
+                if (instrutor == null)
+                {
+                    throw new RegraDeNegocioExcecao("Instrutor não encontrado!");
+                }
+
+                instrutor.SetData(DateTime.Now);
+
+                unitOfWork.Commit();
+
+                var response = mapper.Map<InstrutorResponse>(instrutor);
 
                 return response;
             }
