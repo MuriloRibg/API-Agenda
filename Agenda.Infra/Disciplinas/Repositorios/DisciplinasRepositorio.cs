@@ -3,7 +3,7 @@ using Agenda.Dominio.Disciplinas.Repositorios;
 using Libraries.NHibernate.Repositorios;
 using NHibernate;
 
-namespace Agenda.Infra.Instrutores.Repositorios
+namespace Agenda.Infra.Disciplinas.Repositorios
 {
     public class DisciplinasRepositorio : RepositorioNHibernate<Disciplina>, IDisciplinasRepositorio
     {
