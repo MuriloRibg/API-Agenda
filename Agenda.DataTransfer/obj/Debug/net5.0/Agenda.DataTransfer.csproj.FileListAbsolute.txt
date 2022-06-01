@@ -1,53 +1,70 @@
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\refint\Agenda.DataTransfer.dll
-C:\Marcelo\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.deps.json
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.AssemblyReference.cache
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfoInputs.cache
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.AssemblyInfo.cs
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CoreCompileInputs.cache
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.dll
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\ref\Agenda.DataTransfer.dll
-C:\Users\gabri\Documents\Projetos Gabriel\API-Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.pdb
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.Dominio.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Libraries.dll
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Agenda.Dominio.pdb
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\bin\Debug\net5.0\Libraries.pdb
-C:\Users\marcelo.faria\Documents\projeto-agenda\Agenda\Agenda.DataTransfer\obj\Debug\net5.0\Agenda.DataTransfer.csproj.CopyComplete
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.deps.json
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfo.cs
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.deps.json
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfo.cs
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.deps.json
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfo.cs
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/refint/Agenda.DataTransfer.dll
+C:/Marcelo/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.deps.json
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.AssemblyReference.cache
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfoInputs.cache
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfo.cs
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.dll
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/ref/Agenda.DataTransfer.dll
+C:/Users/gabri/Documents/Projetos Gabriel/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.pdb
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.Dominio.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Libraries.dll
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.Dominio.pdb
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Libraries.pdb
+C:/Users/marcelo.faria/Documents/projeto-agenda/Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CopyComplete
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.deps.json
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/ref/Agenda.DataTransfer.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.DataTransfer.pdb
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.Dominio.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Libraries.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Agenda.Dominio.pdb
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/bin/Debug/net5.0/Libraries.pdb
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.AssemblyReference.cache
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfoInputs.cache
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.AssemblyInfo.cs
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CoreCompileInputs.cache
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.csproj.CopyComplete
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/ref/Agenda.DataTransfer.dll
+/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/Debug/net5.0/Agenda.DataTransfer.pdb

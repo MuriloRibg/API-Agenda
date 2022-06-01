@@ -8,18 +8,18 @@ namespace Agenda.Dominio.Disciplinas.Entidades
         public virtual int Id { get; protected set; }
         public virtual string Nome { get; protected set; }
         public virtual string Pilar { get; protected set; }
-        public DateTime? DeleteAt { get; protected set; }
+        public virtual DateTime? DeleteAt { get; protected set; }
 
         protected Disciplina()
         {
         }
-        
+
         public Disciplina(string nome, string pilar)
         {
             SetNome(nome);
             SetPilar(pilar);
         }
-        
+
         public virtual void SetNome(string nome)
         {
             if (string.IsNullOrWhiteSpace(nome))
