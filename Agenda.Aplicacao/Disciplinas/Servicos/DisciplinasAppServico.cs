@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Agenda.Aplicacao.Disciplinas.Servicos.Interfaces;
 using Agenda.DataTransfer.Disciplinas.Requests;
@@ -9,6 +10,7 @@ using Agenda.Dominio.Disciplinas.Servicos.Interfaces;
 using AutoMapper;
 using Libraries.Aplicacao.Transacoes.Interfaces;
 using Libraries.Dominio.Consultas;
+using NHibernate.Mapping;
 
 namespace Agenda.Aplicacao.Disciplinas.Servicos
 {
@@ -35,16 +37,16 @@ namespace Agenda.Aplicacao.Disciplinas.Servicos
             return response;
         }
 
-        public PaginacaoConsulta<DisciplinaResponse> Listar(DisciplinaListarRequest request)
+        public List<DisciplinaResponse> Listar(DisciplinaListarRequest request)
         {
             var query = disciplinasRepositorio.ListarTodos();
             if (!string.IsNullOrWhiteSpace(request.Nome))
                 query = query.Where(d => d.Nome.ToUpper().Contains(request.Nome.ToUpper()));
             if (!string.IsNullOrWhiteSpace(request.Pilar))
                 query = query.Where(d => d.Pilar.ToUpper().Contains(request.Pilar.ToUpper()));
-
-            var response = mapper.Map<PaginacaoConsulta<DisciplinaResponse>>(query.ToList());
-            return response;
+            
+            
+            return mapper.Map<List<DisciplinaResponse>>(query.ToList());
         }
 
         public DisciplinaResponse Inserir(DisciplinaInserirRequest request)
