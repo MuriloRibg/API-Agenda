@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Libraries
-build_property.ProjectDir = /Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/
+build_property.ProjectDir = C:\Users\murilo.ribeiro\Documents\GitHub\API-Agenda\Libraries\

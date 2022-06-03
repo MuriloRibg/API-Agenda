@@ -1,3 +1,4 @@
+using Agenda.Aplicacao.Disciplinas.Profiles;
 using Agenda.Aplicacao.Instrutores.Profiles;
 using Agenda.Aplicacao.Instrutores.Servicos;
 using Agenda.Dominio.Instrutores.Servicos;
@@ -120,6 +121,7 @@ namespace Agenda.API
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper(typeof(InstrutoresProfile).GetTypeInfo().Assembly);
+            services.AddAutoMapper(typeof(DisciplinasProfile).GetTypeInfo().Assembly);
 
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorAppServico>()

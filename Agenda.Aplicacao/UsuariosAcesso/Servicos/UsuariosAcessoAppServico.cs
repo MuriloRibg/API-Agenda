@@ -44,7 +44,7 @@ namespace Agenda.Aplicacao.UsuariosAcesso.Servicos
                     request.Senha
                 );
 
-                usuariosAcessoRepositorio.Adicionar(usuarioAcesso);
+                usuariosAcessoRepositorio.Inserir(usuarioAcesso);
 
                 var response = mapper.Map<UsuarioAcessoResponse>(usuarioAcesso);
 

@@ -40,5 +40,12 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:Agenda.API.Controllers.Instrutores.InstrutoresController.ListarInstrutor(Agenda.DataTransfer.Instrutores.Requests.InstrutorListarRequest)">
+            <summary>
+             Listar Instrutores
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
     </members>
 </doc>

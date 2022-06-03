@@ -32,21 +32,24 @@ namespace Agenda.Aplicacao.Disciplinas.Servicos
 
         public DisciplinaResponse Recuperar(int id)
         {
-            Disciplina disciplina = disciplinasRepositorio.PesquisarPor(id);
+            Disciplina disciplina = disciplinasRepositorio.Recuperar(id);
             DisciplinaResponse response = mapper.Map<DisciplinaResponse>(disciplina);
             return response;
         }
 
-        public List<DisciplinaResponse> Listar(DisciplinaListarRequest request)
+        public PaginacaoConsulta<DisciplinaResponse> Listar(DisciplinaListarRequest request)
         {
-            var query = disciplinasRepositorio.ListarTodos();
+            var query = disciplinasRepositorio.Query();
             if (!string.IsNullOrWhiteSpace(request.Nome))
                 query = query.Where(d => d.Nome.ToUpper().Contains(request.Nome.ToUpper()));
             if (!string.IsNullOrWhiteSpace(request.Pilar))
                 query = query.Where(d => d.Pilar.ToUpper().Contains(request.Pilar.ToUpper()));
             
-            
-            return mapper.Map<List<DisciplinaResponse>>(query.ToList());
+            PaginacaoConsulta<Disciplina> resultado = disciplinasRepositorio.Listar(query, request.Qt, request.Pg, request.CpOrd, request.TpOrd);
+
+            var response = mapper.Map<PaginacaoConsulta<DisciplinaResponse>>(resultado);
+
+            return response;
         }
 
         public DisciplinaResponse Inserir(DisciplinaInserirRequest request)
@@ -56,7 +59,7 @@ namespace Agenda.Aplicacao.Disciplinas.Servicos
                 unitOfWork.BeginTransaction();
 
                 Disciplina disciplina = new Disciplina(request.Nome, request.Pilar);
-                disciplinasRepositorio.Adicionar(disciplina);
+                disciplinasRepositorio.Inserir(disciplina);
 
                 var response = mapper.Map<DisciplinaResponse>(disciplina);
 

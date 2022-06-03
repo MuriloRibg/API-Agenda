@@ -2,7 +2,7 @@ using Agenda.Dominio.Instrutores.Enumeradores;
 
 namespace Agenda.DataTransfer.Instrutores.Requests
 {
-    public class InstrutorRequest
+    public class InstrutorInserirRequest
     {
         public string Nome { get; set; }
         public string Abreviacao { get; set; }

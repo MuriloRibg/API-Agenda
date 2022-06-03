@@ -1,3 +1,5 @@
+using Libraries.Dominio.Consultas;
+using Libraries.Dominio.Filtros.Enumeradores;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +11,16 @@ namespace Libraries.Dominio.Repositorios.Interfaces
 {
     public interface IRepositorioNHibernate<T> where T : class
     {
-        IQueryable<T> ListarTodos();
-        IQueryable<T> ListarTodos(int index, int count);
-        T PesquisarPor(int id);
-        void Adicionar(T entity);
+
+        void Inserir(T entidade);
+        void Inserir(IEnumerable<T> entidades);
         void Editar(T entidade);
-        void Remover(T entity);
+        void Excluir(T entidade);
+        void Excluir(IEnumerable<T> entidades);
+        T Recuperar(int id);
+        T Recuperar(Expression<Func<T, bool>> expression);
+        IQueryable<T> Query();
+        PaginacaoConsulta<T> Listar(IQueryable<T> query, int qt, int pg, string cpOrd, TipoOrdenacaoEnum tpOrd);
+        void Refresh(T entidade);
     }
 }
