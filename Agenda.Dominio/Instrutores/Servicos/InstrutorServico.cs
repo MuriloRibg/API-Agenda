@@ -45,7 +45,7 @@ namespace Agenda.Dominio.Instrutores.Servicos
 
         public Instrutor Validar(int idInstrutor)
         {
-            Instrutor instrutor = instrutorRepositorio.PesquisarPor(idInstrutor);
+            Instrutor instrutor = instrutorRepositorio.Recuperar(idInstrutor);
 
             if (instrutor == null)
             {

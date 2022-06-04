@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using Agenda.Aplicacao.Instrutores.Servicos.Interfaces;
 using Agenda.DataTransfer.Instrutores.Requests;
+<<<<<<< HEAD
 using Agenda.DataTransfer.Instrutores.Responses;
+=======
+>>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
 using Agenda.Dominio.Instrutores.Entidades;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +21,17 @@ namespace Agenda.API.Controllers.Instrutores
         {
             this.instrutorAppServico = instrutorAppServico;
         }
-        
+
+        ///<summary>
+        /// Listar Instrutores
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpGet]
         //[Authorize]
-        public ActionResult<List<Instrutor>> ListarInstrutor()
+        public ActionResult<List<Instrutor>> ListarInstrutor([FromQuery] InstrutorListarRequest request)
         {
+<<<<<<< HEAD
             var response = instrutorAppServico.Listar();
         
             return Ok(response);
@@ -61,6 +70,9 @@ namespace Agenda.API.Controllers.Instrutores
             var response = instrutorAppServico.Deletar(id);
 
             return Ok(response);
+=======
+            return Ok(instrutorAppServico.Listar(request));
+>>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
         }
     }
 }

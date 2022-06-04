@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Agenda.DataTransfer.Disciplinas.Requests;
 using Agenda.DataTransfer.Disciplinas.Responses;
 using Libraries.Dominio.Consultas;

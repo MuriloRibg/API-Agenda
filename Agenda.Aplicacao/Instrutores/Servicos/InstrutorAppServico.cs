@@ -9,7 +9,11 @@ using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using AutoMapper;
 using Libraries.Aplicacao.Transacoes.Interfaces;
+<<<<<<< HEAD
 using Libraries.Dominio.Excecoes;
+=======
+using Libraries.Dominio.Consultas;
+>>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
 
 namespace Agenda.Aplicacao.Instrutores.Servicos
 {
@@ -33,13 +37,13 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             this.unitOfWork = unitOfWork;
         }
 
-        public IEnumerable<InstrutorResponse> Listar()
+        public PaginacaoConsulta<InstrutorResponse> Listar(InstrutorListarRequest request)
         {
-            var query = instrutorRepositorio.ListarTodos();
+            var query = instrutorRepositorio.Query();
 
-            List<Instrutor> resultado = query.ToList();
+            PaginacaoConsulta<Instrutor> resultado = instrutorRepositorio.Listar(query, request.Qt, request.Pg, request.CpOrd, request.TpOrd);
 
-            var response = mapper.Map<List<InstrutorResponse>>(resultado);
+            var response = mapper.Map<PaginacaoConsulta<InstrutorResponse>>(resultado);
 
             return response;
         }
@@ -51,7 +55,7 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             return response;
         }
 
-        public InstrutorResponse Inserir(InstrutorRequest request) 
+        public InstrutorResponse Inserir(InstrutorInserirRequest request) 
         {
             try 
             {
@@ -65,7 +69,7 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
                     request.Pilar
                 );
 
-                instrutorRepositorio.Adicionar(instrutor);
+                instrutorRepositorio.Inserir(instrutor);
 
                 var response = mapper.Map<InstrutorResponse>(instrutor);
 
@@ -81,7 +85,11 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             }
         }
 
+<<<<<<< HEAD
         public InstrutorResponse Atualizar (int id, InstrutorRequest request) 
+=======
+         public InstrutorResponse Atualizar (int id, InstrutorInserirRequest request) 
+>>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
         {
             try
             {

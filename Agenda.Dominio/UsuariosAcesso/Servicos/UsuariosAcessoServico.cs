@@ -21,7 +21,7 @@ namespace Agenda.Dominio.UsuariosAcesso.Servicos
         public SessaoAcesso Autenticar(string login, string senha)
         {
             var hashSenha = usuariosAcessoRepositorio.CriptografarSenhaAcesso(login, senha);
-            UsuarioAcesso usuario = usuariosAcessoRepositorio.ListarTodos()
+            UsuarioAcesso usuario = usuariosAcessoRepositorio.Query()
                 .Where(x => x.Senha == hashSenha)
                 .FirstOrDefault();
 
@@ -43,7 +43,7 @@ namespace Agenda.Dominio.UsuariosAcesso.Servicos
 
         public UsuarioAcesso Instanciar(string nome, string login, string email, string senha) 
         {
-            UsuarioAcesso usuario = usuariosAcessoRepositorio.ListarTodos()
+            UsuarioAcesso usuario = usuariosAcessoRepositorio.Query()
                 .Where(
                     x => x.Email.ToLower() == email.ToLower() || 
                     x.Login.ToLower() == login.ToLower()
@@ -64,7 +64,7 @@ namespace Agenda.Dominio.UsuariosAcesso.Servicos
 
         public UsuarioAcesso Validar(int id)
         {
-            UsuarioAcesso usuario = usuariosAcessoRepositorio.PesquisarPor(id);
+            UsuarioAcesso usuario = usuariosAcessoRepositorio.Recuperar(id);
 
             if (usuario == null)
             {

@@ -1,45 +1,51 @@
 {
   "format": 1,
   "restore": {
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.API/Agenda.API.csproj": {}
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {}
   },
   "projects": {
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.API/Agenda.API.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.API\\Agenda.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.API/Agenda.API.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
         "projectName": "Agenda.API",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.API/Agenda.API.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.API/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.API\\Agenda.API.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/Agenda.Aplicacao.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/Agenda.Aplicacao.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj"
               },
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
               },
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               },
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/Agenda.Infra.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/Agenda.Infra.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj"
               },
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj"
               }
             }
           }
@@ -125,37 +131,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/Agenda.Aplicacao.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/Agenda.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
         "projectName": "Agenda.Aplicacao",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/Agenda.Aplicacao.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Aplicacao/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\Agenda.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj"
               },
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -190,34 +202,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
         "projectName": "Agenda.DataTransfer",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/Agenda.DataTransfer.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.DataTransfer/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\Agenda.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -246,34 +264,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
         "projectName": "Agenda.Dominio",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj"
               }
             }
           }
@@ -302,34 +326,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/Agenda.Infra.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/Agenda.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
         "projectName": "Agenda.Infra",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/Agenda.Infra.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Infra/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\Agenda.Infra.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj": {
-                "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Agenda.Dominio/Agenda.Dominio.csproj"
+              "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj": {
+                "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Agenda.Dominio\\Agenda.Dominio.csproj"
               }
             }
           }
@@ -368,26 +398,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj": {
+    "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj",
+        "projectUniqueName": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj",
         "projectName": "Libraries",
-        "projectPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/Libraries.csproj",
-        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
-        "outputPath": "/Users/muriloribeiro/Documents/GitHub/API-Agenda/Libraries/obj/",
+        "projectPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\Libraries.csproj",
+        "packagesPath": "C:\\Users\\murilo.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murilo.ribeiro\\Documents\\GitHub\\API-Agenda\\Libraries\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/muriloribeiro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\murilo.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -429,6 +465,10 @@
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.18, )"
             }
           },
           "imports": [
@@ -446,7 +486,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

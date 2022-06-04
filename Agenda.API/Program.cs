@@ -14,11 +14,12 @@ namespace Agenda.API
     public class Program
     {
         public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
-           .SetBasePath(Directory.GetCurrentDirectory())
-           .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-           .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true)
-           .AddEnvironmentVariables()
-           .Build();
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json",
+                optional: true)
+            .AddEnvironmentVariables()
+            .Build();
 
         public static void Main(string[] args)
         {
@@ -28,7 +29,7 @@ namespace Agenda.API
 
             try
             {
-                Log.Information("Iniciando aplicação...");
+                Log.Information("Iniciando aplicaï¿½ï¿½o...");
 
                 BuildWebHost(args).Run();
             }
@@ -44,8 +45,11 @@ namespace Agenda.API
 
         public static IWebHost BuildWebHost(string[] args)
         {
+            string portaBind = Configuration.GetSection("Aplicacao:Porta").Value;
             var builder = WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseConfiguration(Configuration)
+                .UseUrls(portaBind)
                 .UseSerilog((provider, context, loggerConfiguration) =>
                 {
                     loggerConfiguration
@@ -54,6 +58,5 @@ namespace Agenda.API
 
             return builder.Build();
         }
-
     }
 }

@@ -1,3 +1,4 @@
+using Agenda.Aplicacao.Disciplinas.Profiles;
 using Agenda.Aplicacao.Instrutores.Profiles;
 using Agenda.Aplicacao.Instrutores.Servicos;
 using Agenda.Dominio.Instrutores.Servicos;
@@ -31,27 +32,29 @@ namespace Agenda.API
 {
     public class Startup
     {
+        private IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
-            this.configuration = configuration;
+            Configuration = configuration;
         }
-
-        public IConfiguration configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
 
-            services.AddMvc(config =>
-            {
-                config.Filters.Add<ExcecaoFilter>();
-            })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc(config => { config.Filters.Add<ExcecaoFilter>(); })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Agenda.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "API Agenda",
+                    Version = "v1",
+                    Description = "API de controle de requisições para o site Agenda CEC"
+                });
 
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -68,15 +71,15 @@ namespace Agenda.API
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {
-                          new OpenApiSecurityScheme
-                          {
-                              Reference = new OpenApiReference
-                              {
-                                  Type = ReferenceType.SecurityScheme,
-                                  Id = "Bearer"
-                              }
-                          },
-                         new string[] {}
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] { }
                     }
                 });
                 c.UseInlineDefinitionsForEnums();
@@ -92,60 +95,59 @@ namespace Agenda.API
                         ValidateAudience = false,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Secret"])),
+                        IssuerSigningKey =
+                            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Secret"])),
                         ClockSkew = TimeSpan.Zero
                     };
                 });
 
             services.AddSingleton<ISessionFactory>(factory =>
             {
-                string connection = configuration.GetConnectionString("MySql");
-
-                ISessionFactory sessionFactory = Fluently.Configure().Database(
-                    MySQLConfiguration.Standard
-                        .FormatSql()
-                        .ShowSql()
-                        .ConnectionString(connection)
-                )
-                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<InstrutorMap>())
-                .CurrentSessionContext("call")
-                .BuildSessionFactory();
-
-                return sessionFactory;
+                return Fluently.Configure().Database(() =>
+                    {
+                        string connection = Configuration.GetConnectionString("MySql");
+                        return FluentNHibernate.Cfg.Db.MySQLConfiguration.Standard
+                            .FormatSql()
+                            .ShowSql()
+                            .ConnectionString(connection);
+                    })
+                    .Mappings(m => m.FluentMappings.AddFromAssemblyOf<InstrutorMap>())
+                    .CurrentSessionContext("call")
+                    .BuildSessionFactory();
             });
 
-            services.AddScoped<ISession>(factory =>
-            {
-                return factory.GetService<ISessionFactory>().OpenSession();
-            });
+            services.AddScoped<ISession>(factory => { return factory.GetService<ISessionFactory>().OpenSession(); });
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             services.AddAutoMapper(typeof(InstrutoresProfile).GetTypeInfo().Assembly);
+            services.AddAutoMapper(typeof(DisciplinasProfile).GetTypeInfo().Assembly);
 
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorAppServico>()
-                    .AddClasses()
-                        .AsImplementedInterfaces()
-                        .WithScopedLifetime()
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
             );
 
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorServico>()
-                    .AddClasses()
-                        .AsImplementedInterfaces()
-                        .WithScopedLifetime()
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
             );
 
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorRepositorio>()
-                    .AddClasses()
-                        .AsImplementedInterfaces()
-                        .WithScopedLifetime()
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
             );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, Microsoft.Extensions.Logging.ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
+            Microsoft.Extensions.Logging.ILoggerFactory loggerFactory)
         {
             loggerFactory.AddSerilog();
 
@@ -179,12 +181,7 @@ namespace Agenda.API
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
-
-
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Agenda.Dominio.Disciplinas.Servicos
 
         public Disciplina Validar(int id)
         {
-            Disciplina disciplina = disciplinasRepositorio.PesquisarPor(id);
+            Disciplina disciplina = disciplinasRepositorio.Recuperar(id);
             if (disciplina == null)
                 throw new RegraDeNegocioExcecao("Disciplina não encontrada!");
             return disciplina;
