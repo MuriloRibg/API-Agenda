@@ -40,7 +40,7 @@ namespace Agenda.Dominio.Categorias.Servicos
 
         public Categoria Validar(int id)
         {
-            Categoria categoria = categoriaRepositorio.PesquisarPor(id);
+            Categoria categoria = categoriaRepositorio.Recuperar(id);
 
             if (categoria == null)
             {

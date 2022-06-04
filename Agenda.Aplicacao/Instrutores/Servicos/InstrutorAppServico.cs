@@ -9,11 +9,8 @@ using Agenda.Dominio.Instrutores.Repositorios;
 using Agenda.Dominio.Instrutores.Servicos.Interfaces;
 using AutoMapper;
 using Libraries.Aplicacao.Transacoes.Interfaces;
-<<<<<<< HEAD
 using Libraries.Dominio.Excecoes;
-=======
 using Libraries.Dominio.Consultas;
->>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
 
 namespace Agenda.Aplicacao.Instrutores.Servicos
 {
@@ -85,11 +82,7 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             }
         }
 
-<<<<<<< HEAD
-        public InstrutorResponse Atualizar (int id, InstrutorRequest request) 
-=======
          public InstrutorResponse Atualizar (int id, InstrutorInserirRequest request) 
->>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
         {
             try
             {
@@ -125,11 +118,11 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             {
                 unitOfWork.BeginTransaction();
 
-                Instrutor instrutor = instrutorRepositorio.PesquisarPor(id);
+                Instrutor instrutor = instrutorRepositorio.Recuperar(id);
 
                 if (instrutor == null)
                 {
-                    throw new RegraDeNegocioExcecao("Instrutor não encontrado!");
+                    throw new RegraDeNegocioExcecao("Instrutor nï¿½o encontrado!");
                 }
 
                 instrutor.SetData(DateTime.Now);

@@ -1,11 +1,8 @@
 using System.Collections.Generic;
 using Agenda.Aplicacao.Instrutores.Servicos.Interfaces;
 using Agenda.DataTransfer.Instrutores.Requests;
-<<<<<<< HEAD
-using Agenda.DataTransfer.Instrutores.Responses;
-=======
->>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
 using Agenda.Dominio.Instrutores.Entidades;
+using Agenda.DataTransfer.Instrutores.Responses;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,8 +28,7 @@ namespace Agenda.API.Controllers.Instrutores
         //[Authorize]
         public ActionResult<List<Instrutor>> ListarInstrutor([FromQuery] InstrutorListarRequest request)
         {
-<<<<<<< HEAD
-            var response = instrutorAppServico.Listar();
+            var response = instrutorAppServico.Listar(request);
         
             return Ok(response);
         }
@@ -47,7 +43,7 @@ namespace Agenda.API.Controllers.Instrutores
         }
 
         [HttpPost]
-        public ActionResult<InstrutorResponse> Inserir(InstrutorRequest request)
+        public ActionResult<InstrutorResponse> Inserir(InstrutorInserirRequest request)
         {
             var response = instrutorAppServico.Inserir(request);
 
@@ -56,7 +52,7 @@ namespace Agenda.API.Controllers.Instrutores
 
         [HttpPut]
         [Route("{id}")]
-        public ActionResult<InstrutorResponse> Atualizar(int id, InstrutorRequest request)
+        public ActionResult<InstrutorResponse> Atualizar(int id, InstrutorInserirRequest request)
         {
             var response = instrutorAppServico.Atualizar(id, request);
 
@@ -70,9 +66,6 @@ namespace Agenda.API.Controllers.Instrutores
             var response = instrutorAppServico.Deletar(id);
 
             return Ok(response);
-=======
-            return Ok(instrutorAppServico.Listar(request));
->>>>>>> 4028d23cfa0ea3d739b7d969d1a135902f36288c
         }
     }
 }
