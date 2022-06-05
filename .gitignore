@@ -58,8 +58,8 @@ mono_crash.*
 # Construir resultados
 [Dd]ebug/
 [Dd]ebugPúblico/
-[Rr] solte/
-[Rr] libera/
+[Rr]elease/
+[Rr]eleases/
 x64/
 x86/
 [Ww][Ii][Nn]32/
@@ -67,6 +67,7 @@ x86/
 [Aa][Rr][Mm]64/
 prédio/
 [Bb]em/
+[Bb]in/
 [Oo]bj/
 [L]og/
 [L]ogs/
