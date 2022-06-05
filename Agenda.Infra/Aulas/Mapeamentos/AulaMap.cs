@@ -12,7 +12,7 @@ namespace Agenda.Infra.Aulas.Mapeamentos
     {
         public AulaMap()
         {
-            Table("AULA");
+            Table("AULAS");
             Id(p => p.Id).Column("ID");
             Map(x => x.Titulo).Column("TITULO").Not.Nullable();
             References(x => x.Instrutor).Column("ID_INSTRUTOR").Not.Nullable();
