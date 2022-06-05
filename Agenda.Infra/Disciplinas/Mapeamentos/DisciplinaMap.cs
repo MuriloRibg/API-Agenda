@@ -8,10 +8,10 @@ namespace Agenda.Infra.Disciplinas.Mapeamentos
         public DisciplinaMap()
         {
             Table("DISCIPLINAS");
-            Id(x => x.Id).Column("ID");
-            Map(x => x.Nome).Column("NOME");
-            Map(x => x.Pilar).Column("PILAR");
-            Map(x => x.DeleteAt).Column("DELETEAT");
+            Id(d => d.Id).Column("ID");
+            Map(d => d.Nome).Column("NOME");
+            Map(d => d.Pilar).Column("PILAR");
+            Map(d => d.DeleteAt).Column("DELETEAT");
         }
     }
 }

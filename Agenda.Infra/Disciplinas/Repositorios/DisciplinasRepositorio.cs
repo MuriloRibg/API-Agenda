@@ -7,8 +7,6 @@ namespace Agenda.Infra.Disciplinas.Repositorios
 {
     public class DisciplinasRepositorio : RepositorioNHibernate<Disciplina>, IDisciplinasRepositorio
     {
-        public DisciplinasRepositorio(ISession session) : base(session)
-        {
-        }
+        public DisciplinasRepositorio(ISession session) : base(session) { }
     }
 }

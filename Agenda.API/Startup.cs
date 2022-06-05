@@ -39,7 +39,6 @@ namespace Agenda.API
             Configuration = configuration;
         }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -116,12 +115,11 @@ namespace Agenda.API
                     .BuildSessionFactory();
             });
 
-            services.AddScoped<ISession>(factory => { return factory.GetService<ISessionFactory>().OpenSession(); });
+            services.AddScoped<ISession>(factory => factory.GetService<ISessionFactory>().OpenSession() );
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper(typeof(InstrutoresProfile).GetTypeInfo().Assembly);
-            services.AddAutoMapper(typeof(DisciplinasProfile).GetTypeInfo().Assembly);
 
             services.Scan(scan => scan
                 .FromAssemblyOf<InstrutorAppServico>()
@@ -145,7 +143,6 @@ namespace Agenda.API
             );
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
             Microsoft.Extensions.Logging.ILoggerFactory loggerFactory)
         {

@@ -8,7 +8,6 @@ namespace Agenda.DataTransfer.Disciplinas.Requests
     {
         public string Nome { get; set; }
         public string Pilar { get; set; }
-        public string Ativo { get; set; }
 
         public DisciplinaListarRequest() : base(cpOrd: "Nome", tpOrd: TipoOrdenacaoEnum.Asc) { }
     }

@@ -10,10 +10,8 @@ namespace Agenda.Dominio.Disciplinas.Entidades
         public virtual string Pilar { get; protected set; }
         public virtual DateTime DeleteAt { get; protected set; }
 
-        protected Disciplina()
-        {
-        }
-
+        protected Disciplina() { }
+        
         public Disciplina(string nome, string pilar)
         {
             SetNome(nome);

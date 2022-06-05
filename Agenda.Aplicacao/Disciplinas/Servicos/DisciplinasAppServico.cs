@@ -44,8 +44,9 @@ namespace Agenda.Aplicacao.Disciplinas.Servicos
                 query = query.Where(d => d.Nome.ToUpper().Contains(request.Nome.ToUpper()));
             if (!string.IsNullOrWhiteSpace(request.Pilar))
                 query = query.Where(d => d.Pilar.ToUpper().Contains(request.Pilar.ToUpper()));
-            
-            PaginacaoConsulta<Disciplina> resultado = disciplinasRepositorio.Listar(query, request.Qt, request.Pg, request.CpOrd, request.TpOrd);
+
+            PaginacaoConsulta<Disciplina> resultado =
+                disciplinasRepositorio.Listar(query, request.Qt, request.Pg, request.CpOrd, request.TpOrd);
 
             var response = mapper.Map<PaginacaoConsulta<DisciplinaResponse>>(resultado);
 

@@ -4,6 +4,18 @@
     <ProjectReference Include="..\Libraries\Libraries.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Locais\Enumeradores\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Locais\Enumeradores\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Locais\Enumeradores\**" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>

@@ -1,72 +1,72 @@
-using Agenda.Aplicacao.Disciplinas.Servicos.Interfaces;
-using Agenda.DataTransfer.Disciplinas.Requests;
-using Agenda.DataTransfer.Disciplinas.Responses;
+using Agenda.Aplicacao.Locais.Servicos.Interfaces;
+using Agenda.DataTransfer.Locais.Requests;
+using Agenda.DataTransfer.Locais.Responses;
 using Libraries.Dominio.Consultas;
 using Libraries.Util.Extensoes;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Agenda.API.Controllers.Disciplinas
+namespace Agenda.API.Controllers.Locais
 {
     /// <summary>
-    /// Controller da Disciplina
+    /// Controller de Locais
     /// </summary>
-    [Route("api/disciplinas")]
+    [Route("api/locais")]
     [ApiController]
-    public class DisciplinasController : Controller
+    public class LocaisController : Controller
     {
-        private readonly IDisciplinasAppServico disciplinasAppServico;
+        private readonly ILocaisAppServico locaisAppServico;
 
         /// <summary>
-        /// Contrutor do controller
+        /// Contrutor da classe LocaisController
         /// </summary>
-        /// <param name="disciplinasAppServico"></param>
-        public DisciplinasController(IDisciplinasAppServico disciplinasAppServico)
+        /// <param name="locaisAppServico"></param>
+        public LocaisController(ILocaisAppServico locaisAppServico)
         {
-            this.disciplinasAppServico = disciplinasAppServico;
+            this.locaisAppServico = locaisAppServico;
         }
-
+        
         ///<summary>
-        /// Listar Disciplinas
+        /// Listar os Locais
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpGet]
         [Produces("application/json")]
-        public PaginacaoConsulta<DisciplinaResponse> Listar([FromQuery] DisciplinaListarRequest request)
+        public PaginacaoConsulta<LocalResponse> Listar([FromQuery] LocalListarRequest request)
         {
-            return disciplinasAppServico.Listar(request);
+            return locaisAppServico.Listar(request);
         }
         
         /// <summary>
-        /// Recuperar uma Disciplina
+        /// Recuperar um Local
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
         [Route("{id}")]
         [Produces("application/json")]
-        public ActionResult<DisciplinaResponse> Recuperar(int id)
+        public ActionResult<LocalResponse> Recuperar(int id)
         {
-            return Ok(disciplinasAppServico.Recuperar(id));
+            return Ok(locaisAppServico.Recuperar(id));
         }
-
+        
         /// <summary>
-        /// Inserir uma novo Disciplina
+        /// Inserir um novo Local
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>  
         [HttpPost]
         [Produces("application/json")]
         [Consumes("application/json")]
-        public ActionResult<DisciplinaResponse> Inserir([FromBody] DisciplinaInserirRequest request)
+        public ActionResult<LocalResponse> Inserir([FromBody] LocalInserirRequest request)
         {
             if (request.IsNull())
                 return BadRequest();
-            return Ok(disciplinasAppServico.Inserir(request));
+            return Ok(locaisAppServico.Inserir(request));
         }
-
+        
         /// <summary>
-        /// Editar uma Disciplina
+        /// Editar um Local
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
@@ -75,15 +75,15 @@ namespace Agenda.API.Controllers.Disciplinas
         [Route("{id}")]
         [Produces("application/json")]
         [Consumes("application/json")]
-        public ActionResult<DisciplinaResponse> Editar(int id, [FromBody] DisciplinaEditarRequest request)
+        public ActionResult<LocalResponse> Editar(int id, [FromBody] LocalEditarRequest request)
         {
             if (request.IsNull())
                 return BadRequest();
-            return Ok(disciplinasAppServico.Editar(id, request));
+            return Ok(locaisAppServico.Editar(id, request));
         }
 
         /// <summary>
-        /// Apagar uma Disciplina
+        /// Apagar um Local
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -92,7 +92,7 @@ namespace Agenda.API.Controllers.Disciplinas
         [Produces("application/json")]
         public ActionResult Excluir(int id)
         {
-            disciplinasAppServico.Excluir(id);
+            locaisAppServico.Excluir(id);
             return Ok();
         }
     }
