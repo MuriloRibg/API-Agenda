@@ -42,6 +42,15 @@ namespace Agenda.API.Controllers.Instrutores
             return Ok(response);
         }
 
+        [HttpGet]
+        [Route("/teste")]
+        public ActionResult<InstrutorResponse> RecuperarPorAula(int id)
+        {
+            var response = instrutorAppServico.InstrutorPorAula();
+
+            return Ok(response);
+        }
+
         [HttpPost]
         public ActionResult<InstrutorResponse> Inserir(InstrutorInserirRequest request)
         {

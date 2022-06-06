@@ -112,6 +112,12 @@ namespace Agenda.Aplicacao.Instrutores.Servicos
             }
         }
 
+        public IList<Instrutor> InstrutorPorAula()
+        {
+            var instrutor = instrutorRepositorio.InstrutorEmAula();
+            return instrutor;
+        }
+
         public InstrutorResponse Deletar(int id)
         {
             try
