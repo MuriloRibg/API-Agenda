@@ -42,8 +42,6 @@ namespace Agenda.Dominio.Locais.Entidades
 
         public virtual void SetDeleteAt(DateTime deleteAt)
         {
-            if (deleteAt.IsNull())
-                throw new AtributoObrigatorioExcecao("deleteAt");
             DeleteAt = deleteAt;
         }
     }

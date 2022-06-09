@@ -1,72 +1,73 @@
-using Agenda.Aplicacao.Disciplinas.Servicos.Interfaces;
+using Agenda.Aplicacao.Turmas.Servicos.Interfaces;
 using Agenda.DataTransfer.Disciplinas.Requests;
 using Agenda.DataTransfer.Disciplinas.Responses;
+using Agenda.DataTransfer.Turmas.Requests;
+using Agenda.DataTransfer.Turmas.Responses;
 using Libraries.Dominio.Consultas;
 using Libraries.Util.Extensoes;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Agenda.API.Controllers.Disciplinas
+namespace Agenda.API.Controllers.Turmas
 {
     /// <summary>
-    /// Controller da Disciplina
+    /// Controller da Turma
     /// </summary>
-    [Route("api/disciplinas")]
+    [Route("api/turmas")]
     [ApiController]
-    public class DisciplinasController : Controller
+    public class TurmasController : Controller
     {
-        private readonly IDisciplinasAppServico disciplinasAppServico;
+        private readonly ITurmasAppServico turmasAppServico;
 
         /// <summary>
         /// Contrutor do controller
         /// </summary>
-        /// <param name="disciplinasAppServico"></param>
-        public DisciplinasController(IDisciplinasAppServico disciplinasAppServico)
+        /// <param name="turmasAppServico"></param>
+        public TurmasController(ITurmasAppServico turmasAppServico)
         {
-            this.disciplinasAppServico = disciplinasAppServico;
+            this.turmasAppServico = turmasAppServico;
         }
-
         ///<summary>
-        /// Listar Disciplinas
+        /// Listar Turmas
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpGet]
         [Produces("application/json")]
-        public PaginacaoConsulta<DisciplinaResponse> Listar([FromQuery] DisciplinaListarRequest request)
+        public PaginacaoConsulta<TurmaResponse> Listar([FromQuery] TurmaListarRequest request)
         {
-            return disciplinasAppServico.Listar(request);
+            return turmasAppServico.Listar(request);
         }
         
         /// <summary>
-        /// Recuperar uma Disciplina
+        /// Recuperar uma Turma
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
         [Route("{id}")]
         [Produces("application/json")]
-        public ActionResult<DisciplinaResponse> Recuperar(int id)
+        public ActionResult<TurmaResponse> Recuperar(int id)
         {
-            return Ok(disciplinasAppServico.Recuperar(id));
+            return Ok(turmasAppServico.Recuperar(id));
         }
 
         /// <summary>
-        /// Inserir uma nova Disciplina
+        /// Inserir uma nova Turma
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>  
         [HttpPost]
         [Produces("application/json")]
         [Consumes("application/json")]
-        public ActionResult<DisciplinaResponse> Inserir([FromBody] DisciplinaInserirRequest request)
+        public ActionResult<TurmaResponse> Inserir([FromBody] TurmaInserirRequest request)
         {
             if (request.IsNull())
                 return BadRequest();
-            return Ok(disciplinasAppServico.Inserir(request));
+            return Ok(turmasAppServico.Inserir(request));
         }
 
         /// <summary>
-        /// Editar uma Disciplina
+        /// Editar uma turma
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
@@ -75,15 +76,15 @@ namespace Agenda.API.Controllers.Disciplinas
         [Route("{id}")]
         [Produces("application/json")]
         [Consumes("application/json")]
-        public ActionResult<DisciplinaResponse> Editar(int id, [FromBody] DisciplinaEditarRequest request)
+        public ActionResult<TurmaResponse> Editar(int id, [FromBody] TurmaEditarRequest request)
         {
             if (request.IsNull())
                 return BadRequest();
-            return Ok(disciplinasAppServico.Editar(id, request));
+            return Ok(turmasAppServico.Editar(id, request));
         }
 
         /// <summary>
-        /// Apagar uma Disciplina
+        /// Apagar uma turma
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -92,7 +93,7 @@ namespace Agenda.API.Controllers.Disciplinas
         [Produces("application/json")]
         public ActionResult Excluir(int id)
         {
-            disciplinasAppServico.Excluir(id);
+            turmasAppServico.Excluir(id);
             return Ok();
         }
     }
