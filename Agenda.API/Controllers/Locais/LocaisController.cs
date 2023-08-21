@@ -1,8 +1,10 @@
 using Agenda.Aplicacao.Locais.Servicos.Interfaces;
 using Agenda.DataTransfer.Locais.Requests;
 using Agenda.DataTransfer.Locais.Responses;
+
 using Libraries.Dominio.Consultas;
 using Libraries.Util.Extensoes;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda.API.Controllers.Locais
@@ -32,9 +34,9 @@ namespace Agenda.API.Controllers.Locais
         /// <returns></returns>
         [HttpGet]
         [Produces("application/json")]
-        public PaginacaoConsulta<LocalResponse> Listar([FromQuery] LocalListarRequest request)
+        public ActionResult<PaginacaoConsulta<LocalResponse>> Listar([FromQuery] LocalListarRequest request)
         {
-            return locaisAppServico.Listar(request);
+            return Ok(locaisAppServico.Listar(request));
         }
         
         /// <summary>
@@ -60,9 +62,7 @@ namespace Agenda.API.Controllers.Locais
         [Consumes("application/json")]
         public ActionResult<LocalResponse> Inserir([FromBody] LocalInserirRequest request)
         {
-            if (request.IsNull())
-                return BadRequest();
-            return Ok(locaisAppServico.Inserir(request));
+            return request is null ? BadRequest() : Ok(locaisAppServico.Inserir(request));
         }
         
         /// <summary>
@@ -77,9 +77,7 @@ namespace Agenda.API.Controllers.Locais
         [Consumes("application/json")]
         public ActionResult<LocalResponse> Editar(int id, [FromBody] LocalEditarRequest request)
         {
-            if (request.IsNull())
-                return BadRequest();
-            return Ok(locaisAppServico.Editar(id, request));
+            return request is null ?  BadRequest() : Ok(locaisAppServico.Editar(id, request));
         }
 
         /// <summary>

@@ -1,3 +1,4 @@
 {
-    "editor.foldingImportsByDefault": true
+    "editor.foldingImportsByDefault": true,
+    "dotnet.defaultSolution": "Agenda.sln"
 }

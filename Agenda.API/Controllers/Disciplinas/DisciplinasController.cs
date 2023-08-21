@@ -1,8 +1,13 @@
+//Importação interna
 using Agenda.Aplicacao.Disciplinas.Servicos.Interfaces;
 using Agenda.DataTransfer.Disciplinas.Requests;
 using Agenda.DataTransfer.Disciplinas.Responses;
+
+//Libs interna
 using Libraries.Dominio.Consultas;
 using Libraries.Util.Extensoes;
+
+//Libs microsoft
 using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda.API.Controllers.Disciplinas
@@ -60,9 +65,7 @@ namespace Agenda.API.Controllers.Disciplinas
         [Consumes("application/json")]
         public ActionResult<DisciplinaResponse> Inserir([FromBody] DisciplinaInserirRequest request)
         {
-            if (request.IsNull())
-                return BadRequest();
-            return Ok(disciplinasAppServico.Inserir(request));
+            return request is null ?  BadRequest() : Ok(disciplinasAppServico.Inserir(request));
         }
 
         /// <summary>
@@ -77,9 +80,7 @@ namespace Agenda.API.Controllers.Disciplinas
         [Consumes("application/json")]
         public ActionResult<DisciplinaResponse> Editar(int id, [FromBody] DisciplinaEditarRequest request)
         {
-            if (request.IsNull())
-                return BadRequest();
-            return Ok(disciplinasAppServico.Editar(id, request));
+            return request is null ?  BadRequest() : Ok(disciplinasAppServico.Editar(id, request));
         }
 
         /// <summary>

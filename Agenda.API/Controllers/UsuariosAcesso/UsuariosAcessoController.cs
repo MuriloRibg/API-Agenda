@@ -1,6 +1,9 @@
+//Importações internas
 using Agenda.Aplicacao.UsuariosAcesso.Servicos.Interfaces;
 using Agenda.DataTransfer.UsuariosAcesso.Requests;
 using Agenda.DataTransfer.UsuariosAcesso.Responses;
+
+//Libs externas
 using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda.API.Controllers.UsuariosAcesso
@@ -28,9 +31,7 @@ namespace Agenda.API.Controllers.UsuariosAcesso
         [Route("api/autenticar")]
         public ActionResult<UsuarioAcessoSessaoResponse> Autenticar([FromBody] UsuarioAcessoAutenticacaoRequest request)
         {
-            var response = usuariosAcessoAppServico.Autenticar(request);
-
-            return Ok(response);
+            return Ok(usuariosAcessoAppServico.Autenticar(request));
         }
     }
 }

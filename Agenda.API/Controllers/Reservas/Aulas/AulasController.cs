@@ -1,12 +1,17 @@
-using System.Collections.Generic;
+// Importação internar 
 using Agenda.Aplicacao.Aulas.Servicos.Interfaces;
 using Agenda.Dominio.Aulas.Entidades;
 using Agenda.DataTransfer.Aulas.Requests;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+
+//Libs internas
 using Libraries.Aplicacao.Transacoes.Interfaces;
 using Libraries.Dominio.Excecoes;
 using Libraries.Dominio.Consultas;
+
+//Lins externas
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda.API.Controllers.Aulas
 {
@@ -27,12 +32,11 @@ namespace Agenda.API.Controllers.Aulas
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpGet]
-        //[Authorize]
+        [Produces("application/json")]
+        [Consumes("application/json")]
         public ActionResult<PaginacaoConsulta<Aula>> ListarAulas([FromQuery] AulaListarRequest request)
         {
-            var response = aulaAppServico.Listar(request);
-        
-            return Ok(response);
+            return Ok(aulaAppServico.Listar(request));
         }
     }
 }

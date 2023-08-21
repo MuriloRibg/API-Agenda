@@ -1,10 +1,15 @@
+//Importações internas
 using Agenda.Aplicacao.Turmas.Servicos.Interfaces;
 using Agenda.DataTransfer.Disciplinas.Requests;
 using Agenda.DataTransfer.Disciplinas.Responses;
 using Agenda.DataTransfer.Turmas.Requests;
 using Agenda.DataTransfer.Turmas.Responses;
+
+//Libs internas
 using Libraries.Dominio.Consultas;
 using Libraries.Util.Extensoes;
+
+//Libs externas
 using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda.API.Controllers.Turmas
